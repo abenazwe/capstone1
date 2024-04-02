@@ -1,0 +1,41 @@
+.container-main {
+    background-color: #8884c0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-box {
+    background-color: white;
+    width: 90%;
+    max-width: 90%; /* Limiting maximum width */
+    height: 90%;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .btn-container {
+    max-width:1000px; /* Limiting maximum width */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .btn-custom {
+    background-color: #331894;
+    color: white;
+    border-radius: 15px;
+    padding: 20px 60px;
+    cursor: pointer; /* Adding cursor pointer */
+    transition: background-color 0.3s; /* Adding transition effect */
+    font-weight: bold;
+  }
+  .btn-custom:hover {
+    background-color: #4d29ad; /* Changing background color on hover */
+    text-decoration: none;
+    color: #8884c0;
+  }
+
+  h1 {
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }

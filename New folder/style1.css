@@ -1,0 +1,123 @@
+body{
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.login-container{
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    background-color: white;
+    flex: 70%;
+}
+
+/* .right{
+    background-color: #330525;
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* padding: 1rem; */
+
+
+.login-container .left .left-content{
+    /* margin: 5rem; */
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.login-container .right .right-content{
+    /* margin-left: 2.5rem; */
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.login-container .left .left-content h1{
+    color: #330525;
+    font-weight: 800;
+    font-size: 3rem; 
+    margin: 0;
+}
+
+.login-container .left .left-content h5{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+.login-field{
+    padding: 1.5rem;
+    width: 60%;
+    border-radius: 7px;
+    border: none;
+    background-color: #F2F2F2;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    display: block;
+}
+
+.login-btn{
+    background-color: #330525;
+    padding: 2rem;
+    width: 65%;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.login-btn:hover{
+    background-color: #F2F2F2;
+    color: black;
+}
+
+
+.sign-up{
+    background-color: #330525;
+    padding: 2rem;
+    width: 20%;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.sign-up:hover{
+    background-color: #F2F2F2;
+    color: black;
+}
+.logo-container{
+    width: 60%;
+    /* border: 1px solid red; */
+    margin-bottom: 1rem;
+}
+
+.logo-container img{
+    width: 100%;
+
+}
+
+.svg-container{
+    width: 70%;
+}
+
+.svg-container img{
+    width: 100%;
+}
+
